@@ -104,7 +104,7 @@ export default function App() {
               <button
                 onClick={downloadQR}
                 disabled={!qrUrl}
-                className="flex-1 sm:flex-none inline-flex justify-center items-center border bg-gradient-to-b from-green-500 to-green-600  disabled:border-gray-300 disabled:bg-white text-white font-medium p-3 rounded-md hover:bg-gray-50 transition-all duration-200 transform hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                className="flex-1 sm:flex-none inline-flex justify-center items-center  bg-gradient-to-b from-green-500 to-green-600  disabled:border-gray-300 disabled:bg-white text-white font-medium p-3 rounded-md hover:bg-gray-50 transition-all duration-200 transform hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
               >
                 <Download className="w-4 h-4 mr-2 " />
                 Download
